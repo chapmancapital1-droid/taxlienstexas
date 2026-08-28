@@ -55,7 +55,7 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if route in ('/', '/index.html'):
                 return self._file('index.html')
-            if route in ('/app.js', '/style.css', '/dashboard.js', '/dashboard.css', '/manifest.json'):
+            if route in ('/app.js', '/style.css', '/dashboard.js', '/dashboard.css', '/manifest.json', '/INSTALL.html'):
                 return self._file(route.lstrip('/'))
             if route == '/api/counties':
                 return self._send(200, json.dumps(COUNTIES))

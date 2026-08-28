@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Install Tax Sales App</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #0d1117, #1a2332);
+    color: #e6edf3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container {
+    max-width: 500px;
+    background: #161f2b;
+    border: 1px solid #263444;
+    border-radius: 16px;
+    padding: 40px 30px;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #23503c, #2f9e6f);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 0 auto 20px;
+    border: 2px solid #35b57c;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #e6edf3;
+  }
+  .subtitle {
+    color: #93a4b8;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  .steps {
+    text-align: left;
+    margin: 30px 0;
+    background: #0d1117;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .step {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  .step:last-child {
+    margin-bottom: 0;
+  }
+  .step-num {
+    background: #2f9e6f;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .step-text {
+    flex: 1;
+    color: #e6edf3;
+  }
+  .step-text small {
+    display: block;
+    color: #93a4b8;
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  .platform-section {
+    margin-top: 30px;
+    border-top: 1px solid #263444;
+    padding-top: 20px;
+  }
+  .platform-title {
+    color: #35b57c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-bottom: 12px;
+  }
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    background: #1d4433;
+    border: 1px solid #2f9e6f;
+    color: #b8f0d6;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn:hover {
+    background: #235240;
+    border-color: #35b57c;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .info-box {
+    background: #142031;
+    border: 1px solid #2d445d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #93a4b8;
+    line-height: 1.6;
+  }
+  .info-box strong {
+    color: #e6edf3;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">★</div>
+  <h1>Texas Tax Sales</h1>
+  <p class="subtitle">Install the app to research tax liens anywhere, anytime</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        Click the button below to open the app
+        <small>You'll see the full app load</small>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        Tap Share or Menu (⋮)
+        <small>Look for Share button on iOS, ⋮ on Android</small>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        Select "Add to Home Screen"
+        <small>On iOS: Share → Add to Home Screen<br>On Android: Menu (⋮) → Install app</small>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-text">
+        Done! Tap the icon to use
+        <small>The app now works like a native app</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="platform-section">
+    <div class="platform-title">🔗 Open the App</div>
+    <button class="btn" onclick="goToApp()">Open Tax Sales App →</button>
+  </div>
+
+  <div class="info-box">
+    <strong>💡 Pro Tip:</strong> The app works offline! Your property research saves automatically to your phone. Export as CSV to share with Agency Swarm.
+  </div>
+
+  <div class="info-box" style="margin-top: 10px;">
+    <strong>⚡ Features:</strong><br>
+    • Search 254 Texas counties<br>
+    • Track property deals<br>
+    • Calculate max bids<br>
+    • Import/export CSV data
+  </div>
+</div>
+
+<script>
+  function goToApp() {
+    // Redirect to the app
+    window.location.href = '/';
+  }
+
+  // Auto-redirect if this page is accessed from within the app
+  if (window.location.pathname === '/INSTALL.html') {
+    // Let them see the instructions first
+  }
+</script>
+
+</body>
+</html>
