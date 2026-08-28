@@ -1,0 +1,1808 @@
+[
+ {
+  "qid": "Q113906",
+  "county": "Stonewall County",
+  "seat": "Aspermont",
+  "pop": "1245",
+  "website": "https://www.stonewallcounty.org/"
+ },
+ {
+  "qid": "Q113919",
+  "county": "Lampasas County",
+  "seat": "Lampasas",
+  "pop": "21627",
+  "website": "https://www.co.lampasas.tx.us/"
+ },
+ {
+  "qid": "Q113940",
+  "county": "Upton County",
+  "seat": "Rankin",
+  "pop": "3308",
+  "website": "https://www.co.upton.tx.us/"
+ },
+ {
+  "qid": "Q113962",
+  "county": "Presidio County",
+  "seat": "Marfa",
+  "pop": "6131",
+  "website": "https://www.co.presidio.tx.us/"
+ },
+ {
+  "qid": "Q113984",
+  "county": "Maverick County",
+  "seat": "Eagle Pass",
+  "pop": "57887",
+  "website": "https://co.maverick.tx.us/"
+ },
+ {
+  "qid": "Q114026",
+  "county": "Nolan County",
+  "seat": "Sweetwater",
+  "pop": "14738",
+  "website": "https://www.co.nolan.tx.us/"
+ },
+ {
+  "qid": "Q114043",
+  "county": "Live Oak County",
+  "seat": "George West",
+  "pop": "11335",
+  "website": "https://www.co.live-oak.tx.us/"
+ },
+ {
+  "qid": "Q114301",
+  "county": "Ward County",
+  "seat": "Monahans",
+  "pop": "11644",
+  "website": "https://www.co.ward.tx.us/"
+ },
+ {
+  "qid": "Q114323",
+  "county": "Lynn County",
+  "seat": "Tahoka",
+  "pop": "5596",
+  "website": "https://www.co.lynn.tx.us/"
+ },
+ {
+  "qid": "Q114339",
+  "county": "Wilbarger County",
+  "seat": "Vernon",
+  "pop": "12887",
+  "website": "https://www.co.wilbarger.tx.us/"
+ },
+ {
+  "qid": "Q114423",
+  "county": "Sherman County",
+  "seat": "Stratford",
+  "pop": "2782",
+  "website": "https://www.co.sherman.tx.us/"
+ },
+ {
+  "qid": "Q114445",
+  "county": "Roberts County",
+  "seat": "Miami",
+  "pop": "827",
+  "website": "https://www.co.roberts.tx.us/"
+ },
+ {
+  "qid": "Q114459",
+  "county": "Pecos County",
+  "seat": "Fort Stockton",
+  "pop": "15193",
+  "website": "https://www.co.pecos.tx.us/"
+ },
+ {
+  "qid": "Q114479",
+  "county": "Winkler County",
+  "seat": "Kermit",
+  "pop": "7791",
+  "website": "https://www.co.winkler.tx.us/"
+ },
+ {
+  "qid": "Q114503",
+  "county": "Willacy County",
+  "seat": "Raymondville",
+  "pop": "20164",
+  "website": "https://www.co.willacy.tx.us/"
+ },
+ {
+  "qid": "Q114529",
+  "county": "Stephens County",
+  "seat": "Breckenridge",
+  "pop": "9101",
+  "website": "https://www.co.stephens.tx.us/"
+ },
+ {
+  "qid": "Q114550",
+  "county": "Shackelford County",
+  "seat": "Albany",
+  "pop": "3105",
+  "website": "https://www.shackelfordcounty.org/"
+ },
+ {
+  "qid": "Q115428",
+  "county": "Kendall County",
+  "seat": "Boerne",
+  "pop": "44279",
+  "website": "https://www.kendallcountytx.gov/"
+ },
+ {
+  "qid": "Q115433",
+  "county": "Wichita County",
+  "seat": "Wichita Falls",
+  "pop": "129350",
+  "website": "https://wichitacountytx.com/"
+ },
+ {
+  "qid": "Q156270",
+  "county": "Eastland County",
+  "seat": "Eastland",
+  "pop": "17725",
+  "website": "https://www.eastlandcountytexas.com/"
+ },
+ {
+  "qid": "Q156278",
+  "county": "Smith County",
+  "seat": "Tyler",
+  "pop": "233479",
+  "website": "https://www.smith-county.com/"
+ },
+ {
+  "qid": "Q156380",
+  "county": "Panola County",
+  "seat": "Carthage",
+  "pop": "22491",
+  "website": "https://www.co.panola.tx.us/"
+ },
+ {
+  "qid": "Q156388",
+  "county": "Morris County",
+  "seat": "Daingerfield",
+  "pop": "11973",
+  "website": "https://www.co.morris.tx.us/"
+ },
+ {
+  "qid": "Q156440",
+  "county": "La Salle County",
+  "seat": "Cotulla",
+  "pop": "6664",
+  "website": "https://www.co.la-salle.tx.us/"
+ },
+ {
+  "qid": "Q156444",
+  "county": "Washington County",
+  "seat": "Brenham",
+  "pop": "35805",
+  "website": "https://www.co.washington.tx.us/"
+ },
+ {
+  "qid": "Q156455",
+  "county": "Nacogdoches County",
+  "seat": "Nacogdoches",
+  "pop": "64653",
+  "website": "https://www.co.nacogdoches.tx.us/"
+ },
+ {
+  "qid": "Q156463",
+  "county": "Mills County",
+  "seat": "Goldthwaite",
+  "pop": "4456",
+  "website": "https://www.millscountytx.gov/"
+ },
+ {
+  "qid": "Q156464",
+  "county": "Moore County",
+  "seat": "Dumas",
+  "pop": "21358",
+  "website": "https://www.co.moore.tx.us/"
+ },
+ {
+  "qid": "Q156471",
+  "county": "Jefferson County",
+  "seat": "Beaumont",
+  "pop": "256526",
+  "website": "https://jeffersoncountytx.gov/"
+ },
+ {
+  "qid": "Q156479",
+  "county": "Wilson County",
+  "seat": "Floresville",
+  "pop": "49753",
+  "website": "https://www.co.wilson.tx.us/"
+ },
+ {
+  "qid": "Q156496",
+  "county": "Houston County",
+  "seat": "Crockett",
+  "pop": "22066",
+  "website": "https://www.co.houston.tx.us/"
+ },
+ {
+  "qid": "Q156582",
+  "county": "Irion County",
+  "seat": "Mertzon",
+  "pop": "1513",
+  "website": "https://www.co.irion.tx.us/"
+ },
+ {
+  "qid": "Q156613",
+  "county": "Young County",
+  "seat": "Graham",
+  "pop": "17867",
+  "website": "https://www.co.young.tx.us/"
+ },
+ {
+  "qid": "Q156618",
+  "county": "Sterling County",
+  "seat": "Sterling City",
+  "pop": "1372",
+  "website": "https://www.co.sterling.tx.us/"
+ },
+ {
+  "qid": "Q279452",
+  "county": "Jim Hogg County",
+  "seat": "Hebbronville",
+  "pop": "4838",
+  "website": "https://www.co.jim-hogg.tx.us/"
+ },
+ {
+  "qid": "Q483847",
+  "county": "Hockley County",
+  "seat": "Levelland",
+  "pop": "21537",
+  "website": "https://www.co.hockley.tx.us/"
+ },
+ {
+  "qid": "Q483888",
+  "county": "Motley County",
+  "seat": "Matador",
+  "pop": "1063",
+  "website": "https://www.co.motley.tx.us/"
+ },
+ {
+  "qid": "Q483893",
+  "county": "Nueces County",
+  "seat": "Corpus Christi",
+  "pop": "353178",
+  "website": "https://www.nuecesco.com/"
+ },
+ {
+  "qid": "Q483895",
+  "county": "Jones County",
+  "seat": "Anson",
+  "pop": "19663",
+  "website": "https://www.co.jones.tx.us/"
+ },
+ {
+  "qid": "Q483916",
+  "county": "Wharton County",
+  "seat": "Wharton",
+  "pop": "41570",
+  "website": "https://www.co.wharton.tx.us/"
+ },
+ {
+  "qid": "Q483937",
+  "county": "Midland County",
+  "seat": "Midland",
+  "pop": "169983",
+  "website": "https://www.co.midland.tx.us/"
+ },
+ {
+  "qid": "Q484183",
+  "county": "Webb County",
+  "seat": "Laredo",
+  "pop": "267114",
+  "website": "https://www.webbcountytx.gov/"
+ },
+ {
+  "qid": "Q484521",
+  "county": "Parmer County",
+  "seat": "Farwell",
+  "pop": "9869",
+  "website": "https://parmercounty.texas.gov/"
+ },
+ {
+  "qid": "Q484535",
+  "county": "Jeff Davis County",
+  "seat": "Fort Davis",
+  "pop": "1996",
+  "website": "https://www.jeffdaviscounty.texas.gov/"
+ },
+ {
+  "qid": "Q484542",
+  "county": "Hutchinson County",
+  "seat": "Stinnett",
+  "pop": "20617",
+  "website": "https://www.co.hutchinson.tx.us/"
+ },
+ {
+  "qid": "Q484551",
+  "county": "Martin County",
+  "seat": "Stanton",
+  "pop": "5237",
+  "website": "http://www.co.martin.tx.us/"
+ },
+ {
+  "qid": "Q484567",
+  "county": "Palo Pinto County",
+  "seat": "Palo Pinto",
+  "pop": "28409",
+  "website": "https://www.co.palo-pinto.tx.us/"
+ },
+ {
+  "qid": "Q484570",
+  "county": "Red River County",
+  "seat": "Clarksville",
+  "pop": "11587",
+  "website": "https://www.co.red-river.tx.us/"
+ },
+ {
+  "qid": "Q484574",
+  "county": "Montague County",
+  "seat": "Montague",
+  "pop": "19965",
+  "website": "https://www.co.montague.tx.us/"
+ },
+ {
+  "qid": "Q484586",
+  "county": "San Saba County",
+  "seat": "San Saba",
+  "pop": "5730",
+  "website": "https://www.co.san-saba.tx.us/"
+ },
+ {
+  "qid": "Q485910",
+  "county": "Matagorda County",
+  "seat": "Bay City",
+  "pop": "36255",
+  "website": "https://www.matagordatx.gov/"
+ },
+ {
+  "qid": "Q485912",
+  "county": "Hood County",
+  "seat": "Granbury",
+  "pop": "61598",
+  "website": "https://hoodcounty.texas.gov/"
+ },
+ {
+  "qid": "Q485920",
+  "county": "Ochiltree County",
+  "seat": "Perryton",
+  "pop": "10015",
+  "website": "https://www.co.ochiltree.tx.us/"
+ },
+ {
+  "qid": "Q490287",
+  "county": "Taylor County",
+  "seat": "Abilene",
+  "pop": "143208",
+  "website": "https://www.taylorcounty.texas.gov/"
+ },
+ {
+  "qid": "Q5375449",
+  "county": "Encinal County",
+  "seat": null,
+  "pop": null,
+  "website": null
+ },
+ {
+  "qid": "Q5464326",
+  "county": "Foley County",
+  "seat": null,
+  "pop": null,
+  "website": null
+ },
+ {
+  "qid": "Q109447",
+  "county": "Crane County",
+  "seat": "Crane",
+  "pop": "4675",
+  "website": "https://www.co.crane.tx.us/"
+ },
+ {
+  "qid": "Q109451",
+  "county": "Donley County",
+  "seat": "Clarendon",
+  "pop": "3258",
+  "website": "https://www.co.donley.tx.us/"
+ },
+ {
+  "qid": "Q109457",
+  "county": "Grayson County",
+  "seat": "Sherman",
+  "pop": "135543",
+  "website": "https://www.co.grayson.tx.us/"
+ },
+ {
+  "qid": "Q109616",
+  "county": "Limestone County",
+  "seat": "Groesbeck",
+  "pop": "22146",
+  "website": "https://www.co.limestone.tx.us/"
+ },
+ {
+  "qid": "Q109616",
+  "county": "Limestone County",
+  "seat": "Springfield",
+  "pop": "22146",
+  "website": "https://www.co.limestone.tx.us/"
+ },
+ {
+  "qid": "Q109622",
+  "county": "Cottle County",
+  "seat": "Paducah",
+  "pop": "1380",
+  "website": "https://www.co.cottle.tx.us/"
+ },
+ {
+  "qid": "Q109631",
+  "county": "Clay County",
+  "seat": "Henrietta",
+  "pop": "10218",
+  "website": "https://www.claycountytx.net/"
+ },
+ {
+  "qid": "Q109636",
+  "county": "Cooke County",
+  "seat": "Gainesville",
+  "pop": "41668",
+  "website": "https://www.co.cooke.tx.us/"
+ },
+ {
+  "qid": "Q109646",
+  "county": "Hansford County",
+  "seat": "Spearman",
+  "pop": "5285",
+  "website": "https://www.co.hansford.tx.us/"
+ },
+ {
+  "qid": "Q109751",
+  "county": "Childress County",
+  "seat": "Childress",
+  "pop": "6664",
+  "website": "https://www.childresstx.us/"
+ },
+ {
+  "qid": "Q109779",
+  "county": "Cochran County",
+  "seat": "Morton",
+  "pop": "2547",
+  "website": "https://www.co.cochran.tx.us/"
+ },
+ {
+  "qid": "Q109785",
+  "county": "Coryell County",
+  "seat": "Gatesville",
+  "pop": "83093",
+  "website": "https://www.coryellcounty.org/"
+ },
+ {
+  "qid": "Q109795",
+  "county": "Concho County",
+  "seat": "Paint Rock",
+  "pop": "3303",
+  "website": "https://www.co.concho.tx.us/"
+ },
+ {
+  "qid": "Q109804",
+  "county": "Deaf Smith County",
+  "seat": "Hereford",
+  "pop": "18583",
+  "website": "https://www.co.deaf-smith.tx.us/"
+ },
+ {
+  "qid": "Q109810",
+  "county": "Ector County",
+  "seat": "Odessa",
+  "pop": "165171",
+  "website": "https://www.co.ector.tx.us/"
+ },
+ {
+  "qid": "Q109825",
+  "county": "Coleman County",
+  "seat": "Coleman",
+  "pop": "7684",
+  "website": "https://www.co.coleman.tx.us/"
+ },
+ {
+  "qid": "Q109830",
+  "county": "Castro County",
+  "seat": "Dimmitt",
+  "pop": "7371",
+  "website": "https://www.co.castro.tx.us/"
+ },
+ {
+  "qid": "Q109836",
+  "county": "Gaines County",
+  "seat": "Seminole",
+  "pop": "21598",
+  "website": "https://www.co.gaines.tx.us/"
+ },
+ {
+  "qid": "Q109975",
+  "county": "Fisher County",
+  "seat": "Roby",
+  "pop": "3672",
+  "website": "https://www.fishercounty.org/"
+ },
+ {
+  "qid": "Q110130",
+  "county": "Ellis County",
+  "seat": "Waxahachie",
+  "pop": "192455",
+  "website": "https://www.elliscountytx.gov/"
+ },
+ {
+  "qid": "Q110257",
+  "county": "Hudspeth County",
+  "seat": "Sierra Blanca",
+  "pop": "3202",
+  "website": "https://www.co.hudspeth.tx.us/"
+ },
+ {
+  "qid": "Q110262",
+  "county": "Jackson County",
+  "seat": "Edna",
+  "pop": "14988",
+  "website": "https://www.co.jackson.tx.us/"
+ },
+ {
+  "qid": "Q110336",
+  "county": "Llano County",
+  "seat": "Llano",
+  "pop": "21243",
+  "website": "https://www.co.llano.tx.us/"
+ },
+ {
+  "qid": "Q110384",
+  "county": "Hill County",
+  "seat": "Hillsboro",
+  "pop": "35874",
+  "website": "https://www.co.hill.tx.us/"
+ },
+ {
+  "qid": "Q110389",
+  "county": "Shelby County",
+  "seat": "Center",
+  "pop": "24022",
+  "website": "https://www.co.shelby.tx.us/"
+ },
+ {
+  "qid": "Q110407",
+  "county": "Zavala County",
+  "seat": "Crystal City",
+  "pop": "9670",
+  "website": "https://www.co.zavala.tx.us/"
+ },
+ {
+  "qid": "Q110412",
+  "county": "Tarrant County",
+  "seat": "Fort Worth",
+  "pop": "2110640",
+  "website": "https://www.tarrantcountytx.gov/"
+ },
+ {
+  "qid": "Q110421",
+  "county": "Medina County",
+  "seat": "Hondo",
+  "pop": "50748",
+  "website": "https://www.medinatx.gov/"
+ },
+ {
+  "qid": "Q110426",
+  "county": "Travis County",
+  "seat": "Austin",
+  "pop": "1290188",
+  "website": "https://www.traviscountytx.gov/"
+ },
+ {
+  "qid": "Q110486",
+  "county": "Kaufman County",
+  "seat": "Kaufman",
+  "pop": "145310",
+  "website": "https://www.kaufmancounty.net/"
+ },
+ {
+  "qid": "Q110500",
+  "county": "Erath County",
+  "seat": "Stephenville",
+  "pop": "42545",
+  "website": "https://www.co.erath.tx.us/"
+ },
+ {
+  "qid": "Q110528",
+  "county": "Floyd County",
+  "seat": "Floydada",
+  "pop": "5402",
+  "website": "https://www.co.floyd.tx.us/"
+ },
+ {
+  "qid": "Q110565",
+  "county": "Freestone County",
+  "seat": "Fairfield",
+  "pop": "19435",
+  "website": "https://www.co.freestone.tx.us/"
+ },
+ {
+  "qid": "Q110570",
+  "county": "Knox County",
+  "seat": "Benjamin",
+  "pop": "3353",
+  "website": "https://www.knoxcountytexas.org/"
+ },
+ {
+  "qid": "Q110575",
+  "county": "Jasper County",
+  "seat": "Jasper",
+  "pop": "32980",
+  "website": "https://www.co.jasper.tx.us/"
+ },
+ {
+  "qid": "Q110624",
+  "county": "Franklin County",
+  "seat": "Mount Vernon",
+  "pop": "10359",
+  "website": "https://www.co.franklin.tx.us/"
+ },
+ {
+  "qid": "Q110670",
+  "county": "Dawson County",
+  "seat": "Lamesa",
+  "pop": "12456",
+  "website": "https://www.co.dawson.tx.us/"
+ },
+ {
+  "qid": "Q110750",
+  "county": "Foard County",
+  "seat": "Crowell",
+  "pop": "1095",
+  "website": "https://www.foardcounty.texas.gov/"
+ },
+ {
+  "qid": "Q110755",
+  "county": "Fayette County",
+  "seat": "La Grange",
+  "pop": "24435",
+  "website": "https://www.co.fayette.tx.us/"
+ },
+ {
+  "qid": "Q110760",
+  "county": "Schleicher County",
+  "seat": "Eldorado",
+  "pop": "2451",
+  "website": "https://www.schleichercounty.gov/"
+ },
+ {
+  "qid": "Q110764",
+  "county": "King County",
+  "seat": "Guthrie",
+  "pop": "265",
+  "website": "https://www.co.king.tx.us/"
+ },
+ {
+  "qid": "Q110773",
+  "county": "Rusk County",
+  "seat": "Henderson",
+  "pop": "52214",
+  "website": "https://www.ruskcountytx.gov/"
+ },
+ {
+  "qid": "Q110779",
+  "county": "Parker County",
+  "seat": "Weatherford",
+  "pop": "148222",
+  "website": "https://www.parkercountytx.gov/"
+ },
+ {
+  "qid": "Q110904",
+  "county": "Harrison County",
+  "seat": "Marshall",
+  "pop": "68839",
+  "website": "https://www.harrisoncountytexas.gov/"
+ },
+ {
+  "qid": "Q110978",
+  "county": "Kent County",
+  "seat": "Jayton",
+  "pop": "753",
+  "website": "https://www.co.kent.tx.us/"
+ },
+ {
+  "qid": "Q110983",
+  "county": "Kinney County",
+  "seat": "Brackettville",
+  "pop": "3129",
+  "website": "https://www.co.kinney.tx.us/"
+ },
+ {
+  "qid": "Q111168",
+  "county": "Dallas County",
+  "seat": "Dallas",
+  "pop": "2613539",
+  "website": "https://www.dallascounty.org/"
+ },
+ {
+  "qid": "Q111174",
+  "county": "Collin County",
+  "seat": "McKinney",
+  "pop": "1064465",
+  "website": "https://www.collincountytx.gov/"
+ },
+ {
+  "qid": "Q111316",
+  "county": "Wise County",
+  "seat": "Decatur",
+  "pop": "68632",
+  "website": "https://www.co.wise.tx.us/"
+ },
+ {
+  "qid": "Q111368",
+  "county": "McLennan County",
+  "seat": "Waco",
+  "pop": "260579",
+  "website": "https://www.mclennan.gov/"
+ },
+ {
+  "qid": "Q111374",
+  "county": "Mason County",
+  "seat": "Mason",
+  "pop": "3953",
+  "website": "https://www.co.mason.tx.us/"
+ },
+ {
+  "qid": "Q111380",
+  "county": "Howard County",
+  "seat": "Big Spring",
+  "pop": "34860",
+  "website": "https://www.co.howard.tx.us/"
+ },
+ {
+  "qid": "Q111385",
+  "county": "Karnes County",
+  "seat": "Karnes City",
+  "pop": "14710",
+  "website": "https://www.co.karnes.tx.us/"
+ },
+ {
+  "qid": "Q111391",
+  "county": "Rockwall County",
+  "seat": "Rockwall",
+  "pop": "107819",
+  "website": "https://www.rockwallcountytexas.com/"
+ },
+ {
+  "qid": "Q111593",
+  "county": "Fannin County",
+  "seat": "Bonham",
+  "pop": "35662",
+  "website": "https://www.co.fannin.tx.us/"
+ },
+ {
+  "qid": "Q111622",
+  "county": "Hale County",
+  "seat": "Plainview",
+  "pop": "32522",
+  "website": "https://www.halecounty.org/"
+ },
+ {
+  "qid": "Q111647",
+  "county": "Collingsworth County",
+  "seat": "Wellington",
+  "pop": "2652",
+  "website": "https://www.co.collingsworth.tx.us/"
+ },
+ {
+  "qid": "Q111663",
+  "county": "Garza County",
+  "seat": "Post",
+  "pop": "5816",
+  "website": "https://www.garzacounty.gov/"
+ },
+ {
+  "qid": "Q111729",
+  "county": "Hunt County",
+  "seat": "Greenville",
+  "pop": "99956",
+  "website": "https://www.huntcounty.net/"
+ },
+ {
+  "qid": "Q111744",
+  "county": "San Jacinto County",
+  "seat": "Coldspring",
+  "pop": "27402",
+  "website": "https://www.co.san-jacinto.tx.us/"
+ },
+ {
+  "qid": "Q111753",
+  "county": "Jim Wells County",
+  "seat": "Alice",
+  "pop": "38891",
+  "website": "https://www.co.jim-wells.tx.us/"
+ },
+ {
+  "qid": "Q111759",
+  "county": "Scurry County",
+  "seat": "Snyder",
+  "pop": "16932",
+  "website": "https://www.co.scurry.tx.us/"
+ },
+ {
+  "qid": "Q111766",
+  "county": "Wheeler County",
+  "seat": "Wheeler",
+  "pop": "4990",
+  "website": "https://www.wheelercounty.texas.gov/"
+ },
+ {
+  "qid": "Q111782",
+  "county": "Upshur County",
+  "seat": "Gilmer",
+  "pop": "40892",
+  "website": "https://www.countyofupshur.com/"
+ },
+ {
+  "qid": "Q111790",
+  "county": "Lubbock County",
+  "seat": "Lubbock",
+  "pop": "310639",
+  "website": "https://www.lubbockcounty.gov/"
+ },
+ {
+  "qid": "Q111821",
+  "county": "Menard County",
+  "seat": "Menard",
+  "pop": "1962",
+  "website": "https://www.co.menard.tx.us/"
+ },
+ {
+  "qid": "Q111844",
+  "county": "Somervell County",
+  "seat": "Glen Rose",
+  "pop": "9205",
+  "website": "https://www.somervell.co/"
+ },
+ {
+  "qid": "Q111851",
+  "county": "Reagan County",
+  "seat": "Big Lake",
+  "pop": "3385",
+  "website": "https://www.co.reagan.tx.us/"
+ },
+ {
+  "qid": "Q112078",
+  "county": "Hemphill County",
+  "seat": "Canadian",
+  "pop": "3382",
+  "website": "https://www.co.hemphill.tx.us/"
+ },
+ {
+  "qid": "Q112086",
+  "county": "Randall County",
+  "seat": "Canyon",
+  "pop": "140753",
+  "website": "https://www.randallcounty.gov/"
+ },
+ {
+  "qid": "Q112115",
+  "county": "Hopkins County",
+  "seat": "Sulphur Springs",
+  "pop": "36787",
+  "website": "https://www.hopkinscountytx.org/"
+ },
+ {
+  "qid": "Q112125",
+  "county": "Marion County",
+  "seat": "Jefferson",
+  "pop": "9725",
+  "website": "https://www.co.marion.tx.us/"
+ },
+ {
+  "qid": "Q112149",
+  "county": "McCulloch County",
+  "seat": "Brady",
+  "pop": "7630",
+  "website": "https://www.co.mcculloch.tx.us/"
+ },
+ {
+  "qid": "Q112442",
+  "county": "Mitchell County",
+  "seat": "Colorado City",
+  "pop": "8990",
+  "website": "https://www.co.mitchell.tx.us/"
+ },
+ {
+  "qid": "Q112526",
+  "county": "Oldham County",
+  "seat": "Vega",
+  "pop": "1758",
+  "website": "https://www.co.oldham.tx.us/"
+ },
+ {
+  "qid": "Q112550",
+  "county": "Reeves County",
+  "seat": "Pecos",
+  "pop": "14748",
+  "website": "https://www.reevescounty.org/"
+ },
+ {
+  "qid": "Q112565",
+  "county": "Newton County",
+  "seat": "Newton",
+  "pop": "12217",
+  "website": "https://www.co.newton.tx.us/"
+ },
+ {
+  "qid": "Q112584",
+  "county": "Lipscomb County",
+  "seat": "Lipscomb",
+  "pop": "3059",
+  "website": "https://www.co.lipscomb.tx.us/"
+ },
+ {
+  "qid": "Q112603",
+  "county": "Navarro County",
+  "seat": "Corsicana",
+  "pop": "52624",
+  "website": "https://www.co.navarro.tx.us/"
+ },
+ {
+  "qid": "Q112619",
+  "county": "Yoakum County",
+  "seat": "Plains",
+  "pop": "7694",
+  "website": "https://www.co.yoakum.tx.us/"
+ },
+ {
+  "qid": "Q112634",
+  "county": "Runnels County",
+  "seat": "Ballinger",
+  "pop": "9900",
+  "website": "https://www.runnelscounty.org/"
+ },
+ {
+  "qid": "Q112652",
+  "county": "Wood County",
+  "seat": "Quitman",
+  "pop": "44843",
+  "website": "https://www.mywoodcounty.com/"
+ },
+ {
+  "qid": "Q112673",
+  "county": "Jack County",
+  "seat": "Jacksboro",
+  "pop": "8472",
+  "website": "https://www.jackcounty.org/"
+ },
+ {
+  "qid": "Q112686",
+  "county": "Williamson County",
+  "seat": "Georgetown",
+  "pop": "609017",
+  "website": "https://www.wilcotx.gov/"
+ },
+ {
+  "qid": "Q112698",
+  "county": "Rains County",
+  "seat": "Emory",
+  "pop": "12164",
+  "website": "https://www.co.rains.tx.us/"
+ },
+ {
+  "qid": "Q112714",
+  "county": "Hartley County",
+  "seat": "Channing",
+  "pop": "5382",
+  "website": "https://www.co.hartley.tx.us/"
+ },
+ {
+  "qid": "Q112768",
+  "county": "Haskell County",
+  "seat": "Haskell",
+  "pop": "5416",
+  "website": "https://www.haskellcountytx.gov/"
+ },
+ {
+  "qid": "Q112781",
+  "county": "Lamb County",
+  "seat": "Littlefield",
+  "pop": "13045",
+  "website": "https://www.co.lamb.tx.us/"
+ },
+ {
+  "qid": "Q112793",
+  "county": "Henderson County",
+  "seat": "Athens",
+  "pop": "82150",
+  "website": "https://www.henderson-county.com/"
+ },
+ {
+  "qid": "Q112882",
+  "county": "Swisher County",
+  "seat": "Tulia",
+  "pop": "6971",
+  "website": "https://www.co.swisher.tx.us/"
+ },
+ {
+  "qid": "Q113096",
+  "county": "Titus County",
+  "seat": "Mount Pleasant",
+  "pop": "31247",
+  "website": "https://www.co.titus.tx.us/"
+ },
+ {
+  "qid": "Q113117",
+  "county": "Madison County",
+  "seat": "Madisonville",
+  "pop": "13455",
+  "website": "https://www.co.madison.tx.us/"
+ },
+ {
+  "qid": "Q113132",
+  "county": "San Patricio County",
+  "seat": "Sinton",
+  "pop": "68755",
+  "website": "https://www.sanpatriciocountytx.gov/"
+ },
+ {
+  "qid": "Q113293",
+  "county": "Potter County",
+  "seat": "Amarillo",
+  "pop": "118525",
+  "website": "https://www.co.potter.tx.us/"
+ },
+ {
+  "qid": "Q113313",
+  "county": "Lamar County",
+  "seat": "Paris",
+  "pop": "50088",
+  "website": "https://www.co.lamar.tx.us/"
+ },
+ {
+  "qid": "Q113375",
+  "county": "Polk County",
+  "seat": "Livingston",
+  "pop": "50123",
+  "website": "https://www.polktx.gov/"
+ },
+ {
+  "qid": "Q113396",
+  "county": "Tom Green County",
+  "seat": "San Angelo",
+  "pop": "120003",
+  "website": "https://www.tomgreencountytx.gov/"
+ },
+ {
+  "qid": "Q113834",
+  "county": "Van Zandt County",
+  "seat": "Canton",
+  "pop": "59541",
+  "website": "https://www.vanzandtcounty.org/"
+ },
+ {
+  "qid": "Q113843",
+  "county": "Johnson County",
+  "seat": "Cleburne",
+  "pop": "179927",
+  "website": "https://www.johnsoncountytx.org/"
+ },
+ {
+  "qid": "Q113854",
+  "county": "Throckmorton County",
+  "seat": "Throckmorton",
+  "pop": "1440",
+  "website": "https://www.throckmortoncounty.org/"
+ },
+ {
+  "qid": "Q113864",
+  "county": "Terry County",
+  "seat": "Brownfield",
+  "pop": "11831",
+  "website": "https://www.co.terry.tx.us/"
+ },
+ {
+  "qid": "Q109317",
+  "county": "Hardeman County",
+  "seat": "Quanah",
+  "pop": "3549",
+  "website": "https://www.co.hardeman.tx.us/"
+ },
+ {
+  "qid": "Q16861",
+  "county": "Bexar County",
+  "seat": "San Antonio",
+  "pop": "2009324",
+  "website": null
+ },
+ {
+  "qid": "Q26502",
+  "county": "Tyler County",
+  "seat": "Woodville",
+  "pop": "19798",
+  "website": "https://www.co.tyler.tx.us/"
+ },
+ {
+  "qid": "Q26506",
+  "county": "Robertson County",
+  "seat": "Franklin",
+  "pop": "16757",
+  "website": "https://www.co.robertson.tx.us/"
+ },
+ {
+  "qid": "Q26519",
+  "county": "Hidalgo County",
+  "seat": "Edinburg",
+  "pop": "870781",
+  "website": "https://www.hidalgocounty.us/"
+ },
+ {
+  "qid": "Q26526",
+  "county": "Kimble County",
+  "seat": "Junction",
+  "pop": "4286",
+  "website": "https://www.co.kimble.tx.us/"
+ },
+ {
+  "qid": "Q26527",
+  "county": "Kleberg County",
+  "seat": "Kingsville",
+  "pop": "31040",
+  "website": "https://www.co.kleberg.tx.us/"
+ },
+ {
+  "qid": "Q26528",
+  "county": "Kerr County",
+  "seat": "Kerrville",
+  "pop": "52598",
+  "website": "https://www.kerrcountytx.gov/"
+ },
+ {
+  "qid": "Q26584",
+  "county": "Brooks County",
+  "seat": "Falfurrias",
+  "pop": "7076",
+  "website": "https://www.co.brooks.tx.us/"
+ },
+ {
+  "qid": "Q26587",
+  "county": "Galveston County",
+  "seat": "Galveston",
+  "pop": "350682",
+  "website": "https://www.galvestoncountytx.gov/"
+ },
+ {
+  "qid": "Q26591",
+  "county": "Caldwell County",
+  "seat": "Lockhart",
+  "pop": "45883",
+  "website": "https://www.co.caldwell.tx.us/"
+ },
+ {
+  "qid": "Q26595",
+  "county": "Edwards County",
+  "seat": "Rocksprings",
+  "pop": "1422",
+  "website": "https://www.co.edwards.tx.us/"
+ },
+ {
+  "qid": "Q26598",
+  "county": "Chambers County",
+  "seat": "Anahuac",
+  "pop": "46571",
+  "website": "https://www.chamberscountytx.gov/"
+ },
+ {
+  "qid": "Q26601",
+  "county": "Brazos County",
+  "seat": "Bryan",
+  "pop": "233849",
+  "website": "https://www.brazoscountytx.gov/"
+ },
+ {
+  "qid": "Q26601",
+  "county": "Brazos County",
+  "seat": "Boonville",
+  "pop": "233849",
+  "website": "https://www.brazoscountytx.gov/"
+ },
+ {
+  "qid": "Q26605",
+  "county": "Calhoun County",
+  "seat": "Port Lavaca",
+  "pop": "20106",
+  "website": "https://www.calhouncotx.org/"
+ },
+ {
+  "qid": "Q26610",
+  "county": "Guadalupe County",
+  "seat": "Seguin",
+  "pop": "172706",
+  "website": "https://www.guadalupetx.gov/"
+ },
+ {
+  "qid": "Q26614",
+  "county": "Gonzales County",
+  "seat": "Gonzales",
+  "pop": "19653",
+  "website": "https://www.co.gonzales.tx.us/"
+ },
+ {
+  "qid": "Q26616",
+  "county": "Grimes County",
+  "seat": "Anderson",
+  "pop": "29268",
+  "website": "https://grimescountytexas.gov/"
+ },
+ {
+  "qid": "Q26619",
+  "county": "Dimmit County",
+  "seat": "Carrizo Springs",
+  "pop": "8615",
+  "website": "https://www.dimmitcounty.org/"
+ },
+ {
+  "qid": "Q26676",
+  "county": "Harris County",
+  "seat": "Houston",
+  "pop": "4731145",
+  "website": "https://www.harriscountytx.gov/"
+ },
+ {
+  "qid": "Q26697",
+  "county": "Uvalde County",
+  "seat": "Uvalde",
+  "pop": "24564",
+  "website": "https://www.uvaldecounty.com/"
+ },
+ {
+  "qid": "Q26699",
+  "county": "Victoria County",
+  "seat": "Victoria",
+  "pop": "91319",
+  "website": "https://www.vctx.org/"
+ },
+ {
+  "qid": "Q26701",
+  "county": "Waller County",
+  "seat": "Hempstead",
+  "pop": "56794",
+  "website": "https://www.co.waller.tx.us/"
+ },
+ {
+  "qid": "Q26705",
+  "county": "Refugio County",
+  "seat": "Refugio",
+  "pop": "6741",
+  "website": "https://www.co.refugio.tx.us/"
+ },
+ {
+  "qid": "Q26710",
+  "county": "Real County",
+  "seat": "Leakey",
+  "pop": "2758",
+  "website": "https://www.co.real.tx.us/"
+ },
+ {
+  "qid": "Q26712",
+  "county": "DeWitt County",
+  "seat": "Cuero",
+  "pop": "19824",
+  "website": "https://www.co.dewitt.tx.us/"
+ },
+ {
+  "qid": "Q26716",
+  "county": "Milam County",
+  "seat": "Cameron",
+  "pop": "24754",
+  "website": "https://www.milamcounty.net/"
+ },
+ {
+  "qid": "Q26719",
+  "county": "Liberty County",
+  "seat": "Liberty",
+  "pop": "91628",
+  "website": "https://www.co.liberty.tx.us/"
+ },
+ {
+  "qid": "Q26730",
+  "county": "Val Verde County",
+  "seat": "Del Rio",
+  "pop": "47586",
+  "website": "https://www.valverdecounty.texas.gov/"
+ },
+ {
+  "qid": "Q26735",
+  "county": "McMullen County",
+  "seat": "Tilden",
+  "pop": "600",
+  "website": "https://mcmullencounty.org/"
+ },
+ {
+  "qid": "Q26744",
+  "county": "San Augustine County",
+  "seat": "San Augustine",
+  "pop": "7918",
+  "website": "https://www.co.san-augustine.tx.us/"
+ },
+ {
+  "qid": "Q26756",
+  "county": "Montgomery County",
+  "seat": "Conroe",
+  "pop": "620443",
+  "website": "https://www.mctx.org/"
+ },
+ {
+  "qid": "Q26762",
+  "county": "Starr County",
+  "seat": "Rio Grande City",
+  "pop": "65920",
+  "website": "https://www.co.starr.tx.us/"
+ },
+ {
+  "qid": "Q26883",
+  "county": "Walker County",
+  "seat": "Huntsville",
+  "pop": "76400",
+  "website": "https://www.co.walker.tx.us/"
+ },
+ {
+  "qid": "Q26885",
+  "county": "Colorado County",
+  "seat": "Columbus",
+  "pop": "20557",
+  "website": "https://www.co.colorado.tx.us/"
+ },
+ {
+  "qid": "Q26889",
+  "county": "Sabine County",
+  "seat": "Hemphill",
+  "pop": "9894",
+  "website": "https://www.co.sabine.tx.us/"
+ },
+ {
+  "qid": "Q26891",
+  "county": "Sutton County",
+  "seat": "Sonora",
+  "pop": "3372",
+  "website": "https://www.co.sutton.tx.us/"
+ },
+ {
+  "qid": "Q26895",
+  "county": "Fort Bend County",
+  "seat": "Richmond",
+  "pop": "822779",
+  "website": "https://www.fortbendcountytx.gov/"
+ },
+ {
+  "qid": "Q26898",
+  "county": "Terrell County",
+  "seat": "Sanderson",
+  "pop": "760",
+  "website": "https://www.co.terrell.tx.us/"
+ },
+ {
+  "qid": "Q26914",
+  "county": "Blanco County",
+  "seat": "Johnson City",
+  "pop": "11374",
+  "website": "https://www.co.blanco.tx.us/"
+ },
+ {
+  "qid": "Q27009",
+  "county": "Trinity County",
+  "seat": "Groveton",
+  "pop": "13602",
+  "website": "https://www.co.trinity.tx.us/"
+ },
+ {
+  "qid": "Q27011",
+  "county": "Frio County",
+  "seat": "Pearsall",
+  "pop": "18385",
+  "website": "https://www.co.frio.tx.us/"
+ },
+ {
+  "qid": "Q27018",
+  "county": "Hays County",
+  "seat": "San Marcos",
+  "pop": "241067",
+  "website": "https://www.hayscountytx.gov/"
+ },
+ {
+  "qid": "Q27021",
+  "county": "Leon County",
+  "seat": "Centerville",
+  "pop": "15719",
+  "website": "https://www.co.leon.tx.us/"
+ },
+ {
+  "qid": "Q27023",
+  "county": "Lavaca County",
+  "seat": "Hallettsville",
+  "pop": "20337",
+  "website": "https://www.co.lavaca.tx.us/"
+ },
+ {
+  "qid": "Q27024",
+  "county": "Gillespie County",
+  "seat": "Fredericksburg",
+  "pop": "26725",
+  "website": "https://www.gillespiecounty.gov/"
+ },
+ {
+  "qid": "Q27025",
+  "county": "Lee County",
+  "seat": "Giddings",
+  "pop": "17478",
+  "website": "https://www.co.lee.tx.us/"
+ },
+ {
+  "qid": "Q27031",
+  "county": "Kenedy County",
+  "seat": "Sarita",
+  "pop": "350",
+  "website": "https://www.kenedycountytx.gov"
+ },
+ {
+  "qid": "Q27034",
+  "county": "Brazoria County",
+  "seat": "Angleton",
+  "pop": "372031",
+  "website": "https://www.brazoriacountytx.gov/"
+ },
+ {
+  "qid": "Q27037",
+  "county": "Duval County",
+  "seat": "San Diego",
+  "pop": "9831",
+  "website": "https://www.co.duval.tx.us/"
+ },
+ {
+  "qid": "Q27051",
+  "county": "Cameron County",
+  "seat": "Brownsville",
+  "pop": "421017",
+  "website": "https://www.cameroncountytx.gov/"
+ },
+ {
+  "qid": "Q27233",
+  "county": "Goliad County",
+  "seat": "Goliad",
+  "pop": "7012",
+  "website": "https://www.co.goliad.tx.us/"
+ },
+ {
+  "qid": "Q27238",
+  "county": "Falls County",
+  "seat": "Marlin",
+  "pop": "16968",
+  "website": "https://www.co.falls.tx.us/"
+ },
+ {
+  "qid": "Q107973",
+  "county": "Bailey County",
+  "seat": "Muleshoe",
+  "pop": "6904",
+  "website": "https://www.co.bailey.tx.us/"
+ },
+ {
+  "qid": "Q107977",
+  "county": "Armstrong County",
+  "seat": "Claude",
+  "pop": "1848",
+  "website": "https://www.co.armstrong.tx.us/"
+ },
+ {
+  "qid": "Q107982",
+  "county": "Aransas County",
+  "seat": "Rockport",
+  "pop": "23830",
+  "website": "https://www.aransascountytx.gov/"
+ },
+ {
+  "qid": "Q108367",
+  "county": "Bandera County",
+  "seat": "Bandera",
+  "pop": "20851",
+  "website": "https://www.banderacounty.gov/"
+ },
+ {
+  "qid": "Q108372",
+  "county": "Atascosa County",
+  "seat": "Jourdanton",
+  "pop": "48981",
+  "website": "https://co.atascosa.tx.us/"
+ },
+ {
+  "qid": "Q108379",
+  "county": "Angelina County",
+  "seat": "Lufkin",
+  "pop": "86395",
+  "website": "https://www.angelinacounty.net/"
+ },
+ {
+  "qid": "Q108386",
+  "county": "Austin County",
+  "seat": "Bellville",
+  "pop": "30167",
+  "website": "https://www.austincounty.com/"
+ },
+ {
+  "qid": "Q108391",
+  "county": "Anderson County",
+  "seat": "Palestine",
+  "pop": "57922",
+  "website": "https://www.co.anderson.tx.us/"
+ },
+ {
+  "qid": "Q108397",
+  "county": "Bee County",
+  "seat": "Beeville",
+  "pop": "31047",
+  "website": "https://beecounty.gov/"
+ },
+ {
+  "qid": "Q108424",
+  "county": "Bosque County",
+  "seat": "Meridian",
+  "pop": "18235",
+  "website": "https://www.bosquecounty.gov/"
+ },
+ {
+  "qid": "Q108428",
+  "county": "Bell County",
+  "seat": "Belton",
+  "pop": "370647",
+  "website": "https://www.bellcountytx.com/"
+ },
+ {
+  "qid": "Q108436",
+  "county": "Bastrop County",
+  "seat": "Bastrop",
+  "pop": "97216",
+  "website": "https://www.bastropcounty.gov/"
+ },
+ {
+  "qid": "Q108494",
+  "county": "El Paso County",
+  "seat": "El Paso",
+  "pop": "865657",
+  "website": "https://www.epcounty.com/"
+ },
+ {
+  "qid": "Q108520",
+  "county": "Baylor County",
+  "seat": "Seymour",
+  "pop": "3465",
+  "website": "https://www.co.baylor.tx.us/"
+ },
+ {
+  "qid": "Q108534",
+  "county": "Andrews County",
+  "seat": "Andrews",
+  "pop": "18610",
+  "website": "https://www.co.andrews.tx.us/"
+ },
+ {
+  "qid": "Q108607",
+  "county": "Culberson County",
+  "seat": "Van Horn",
+  "pop": "2188",
+  "website": "https://www.co.culberson.tx.us/"
+ },
+ {
+  "qid": "Q108612",
+  "county": "Bowie County",
+  "seat": "Boston",
+  "pop": "92893",
+  "website": "https://www.co.bowie.tx.us/"
+ },
+ {
+  "qid": "Q108784",
+  "county": "Burnet County",
+  "seat": "Burnet",
+  "pop": "49130",
+  "website": "https://www.burnetcountytexas.org/"
+ },
+ {
+  "qid": "Q108793",
+  "county": "Archer County",
+  "seat": "Archer City",
+  "pop": "8560",
+  "website": "https://www.co.archer.tx.us/"
+ },
+ {
+  "qid": "Q108803",
+  "county": "Hall County",
+  "seat": "Memphis",
+  "pop": "2825",
+  "website": "https://www.co.hall.tx.us/"
+ },
+ {
+  "qid": "Q108821",
+  "county": "Burleson County",
+  "seat": "Caldwell",
+  "pop": "17642",
+  "website": "https://www.burlesoncountytx.gov/"
+ },
+ {
+  "qid": "Q108827",
+  "county": "Callahan County",
+  "seat": "Baird",
+  "pop": "13708",
+  "website": "https://www.callahancounty.org/"
+ },
+ {
+  "qid": "Q108837",
+  "county": "Camp County",
+  "seat": "Pittsburg",
+  "pop": "12464",
+  "website": "https://www.co.camp.tx.us/"
+ },
+ {
+  "qid": "Q108842",
+  "county": "Cherokee County",
+  "seat": "Rusk",
+  "pop": "50412",
+  "website": "https://www.co.cherokee.tx.us/"
+ },
+ {
+  "qid": "Q108846",
+  "county": "Coke County",
+  "seat": "Robert Lee",
+  "pop": "3285",
+  "website": "https://www.co.coke.tx.us/"
+ },
+ {
+  "qid": "Q108866",
+  "county": "Borden County",
+  "seat": "Gail",
+  "pop": "631",
+  "website": "https://www.co.borden.tx.us/"
+ },
+ {
+  "qid": "Q108952",
+  "county": "Comanche County",
+  "seat": "Comanche",
+  "pop": "13594",
+  "website": "https://www.co.comanche.tx.us/"
+ },
+ {
+  "qid": "Q108957",
+  "county": "Crockett County",
+  "seat": "Ozona",
+  "pop": "3098",
+  "website": "https://www.co.crockett.tx.us/"
+ },
+ {
+  "qid": "Q108962",
+  "county": "Dickens County",
+  "seat": "Dickens",
+  "pop": "1770",
+  "website": "https://www.co.dickens.tx.us/"
+ },
+ {
+  "qid": "Q109150",
+  "county": "Cass County",
+  "seat": "Linden",
+  "pop": "28454",
+  "website": "https://www.co.cass.tx.us/"
+ },
+ {
+  "qid": "Q109155",
+  "county": "Carson County",
+  "seat": "Panhandle",
+  "pop": "5807",
+  "website": "https://www.co.carson.tx.us/"
+ },
+ {
+  "qid": "Q109160",
+  "county": "Brewster County",
+  "seat": "Alpine",
+  "pop": "9546",
+  "website": "https://www.brewstercounty.gov/"
+ },
+ {
+  "qid": "Q109165",
+  "county": "Briscoe County",
+  "seat": "Silverton",
+  "pop": "1435",
+  "website": "https://www.co.briscoe.tx.us/"
+ },
+ {
+  "qid": "Q109170",
+  "county": "Brown County",
+  "seat": "Brownwood",
+  "pop": "38095",
+  "website": "https://www.browncountytx.org/"
+ },
+ {
+  "qid": "Q109204",
+  "county": "Comal County",
+  "seat": "New Braunfels",
+  "pop": "161501",
+  "website": "https://www.comalcounty.gov/"
+ },
+ {
+  "qid": "Q109209",
+  "county": "Loving County",
+  "seat": "Mentone",
+  "pop": "64",
+  "website": "https://www.co.loving.tx.us/"
+ },
+ {
+  "qid": "Q109215",
+  "county": "Orange County",
+  "seat": "Orange",
+  "pop": "84808",
+  "website": "https://www.co.orange.tx.us/"
+ },
+ {
+  "qid": "Q109265",
+  "county": "Denton County",
+  "seat": "Denton",
+  "pop": "906422",
+  "website": "https://www.dentoncounty.gov/"
+ },
+ {
+  "qid": "Q109270",
+  "county": "Hardin County",
+  "seat": "Kountze",
+  "pop": "56231",
+  "website": "https://www.co.hardin.tx.us/"
+ },
+ {
+  "qid": "Q109275",
+  "county": "Gregg County",
+  "seat": "Longview",
+  "pop": "124239",
+  "website": "https://greggcounty.texas.gov/"
+ },
+ {
+  "qid": "Q109279",
+  "county": "Crosby County",
+  "seat": "Crosbyton",
+  "pop": "5133",
+  "website": "https://www.co.crosby.tx.us/"
+ },
+ {
+  "qid": "Q109289",
+  "county": "Delta County",
+  "seat": "Cooper",
+  "pop": "5230",
+  "website": "https://www.deltacountytx.com/"
+ },
+ {
+  "qid": "Q109293",
+  "county": "Glasscock County",
+  "seat": "Garden City",
+  "pop": "1116",
+  "website": "https://www.co.glasscock.tx.us/"
+ },
+ {
+  "qid": "Q109298",
+  "county": "Zapata County",
+  "seat": "Zapata",
+  "pop": "13889",
+  "website": "https://www.co.zapata.tx.us/"
+ },
+ {
+  "qid": "Q109303",
+  "county": "Dallam County",
+  "seat": "Dalhart",
+  "pop": "7115",
+  "website": "https://www.dallam.org/"
+ },
+ {
+  "qid": "Q109308",
+  "county": "Hamilton County",
+  "seat": "Hamilton",
+  "pop": "8222",
+  "website": "https://www.hamiltoncountytx.gov/"
+ },
+ {
+  "qid": "Q109312",
+  "county": "Gray County",
+  "seat": "Pampa",
+  "pop": "21227",
+  "website": "https://www.co.gray.tx.us/"
+ }
+]

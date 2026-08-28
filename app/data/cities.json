@@ -1,0 +1,227 @@
+[
+  {
+    "city": "Houston",
+    "county": "Harris",
+    "note": "Start with Harris County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "San Antonio",
+    "county": "Bexar",
+    "note": "Start with Bexar County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Dallas",
+    "county": "Dallas",
+    "note": "Start with Dallas County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Austin",
+    "county": "Travis",
+    "note": "Start with Travis County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "note": "Start with Tarrant County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "El Paso",
+    "county": "El Paso",
+    "note": "Start with El Paso County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Arlington",
+    "county": "Tarrant",
+    "note": "Start with Tarrant County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Corpus Christi",
+    "county": "Nueces",
+    "note": "Start with Nueces County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Plano",
+    "county": "Collin",
+    "note": "Start with Collin County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Laredo",
+    "county": "Webb",
+    "note": "Start with Webb County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Lubbock",
+    "county": "Lubbock",
+    "note": "Start with Lubbock County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Irving",
+    "county": "Dallas",
+    "note": "Start with Dallas County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Garland",
+    "county": "Dallas",
+    "note": "Start with Dallas County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Frisco",
+    "county": "Collin",
+    "note": "This city crosses or may cross county lines; Collin is the starting county shown here. Verify the parcel's actual county and current notice."
+  },
+  {
+    "city": "McKinney",
+    "county": "Collin",
+    "note": "Start with Collin County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Amarillo",
+    "county": "Potter",
+    "note": "This city crosses or may cross county lines; Potter is the starting county shown here. Verify the parcel's actual county and current notice."
+  },
+  {
+    "city": "Grand Prairie",
+    "county": "Dallas",
+    "note": "This city crosses or may cross county lines; Dallas is the starting county shown here. Verify the parcel's actual county and current notice."
+  },
+  {
+    "city": "Brownsville",
+    "county": "Cameron",
+    "note": "Start with Cameron County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Pasadena",
+    "county": "Harris",
+    "note": "Start with Harris County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Mesquite",
+    "county": "Dallas",
+    "note": "Start with Dallas County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Killeen",
+    "county": "Bell",
+    "note": "Start with Bell County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "McAllen",
+    "county": "Hidalgo",
+    "note": "Start with Hidalgo County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Carrollton",
+    "county": "Dallas",
+    "note": "This city crosses or may cross county lines; Dallas is the starting county shown here. Verify the parcel's actual county and current notice."
+  },
+  {
+    "city": "Midland",
+    "county": "Midland",
+    "note": "Start with Midland County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Denton",
+    "county": "Denton",
+    "note": "Start with Denton County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Waco",
+    "county": "McLennan",
+    "note": "Start with McLennan County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Round Rock",
+    "county": "Williamson",
+    "note": "Start with Williamson County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Abilene",
+    "county": "Taylor",
+    "note": "Start with Taylor County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "College Station",
+    "county": "Brazos",
+    "note": "Start with Brazos County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Beaumont",
+    "county": "Jefferson",
+    "note": "Start with Jefferson County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Tyler",
+    "county": "Smith",
+    "note": "Start with Smith County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Sugar Land",
+    "county": "Fort Bend",
+    "note": "Start with Fort Bend County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Wichita Falls",
+    "county": "Wichita",
+    "note": "Start with Wichita County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "San Angelo",
+    "county": "Tom Green",
+    "note": "Start with Tom Green County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "League City",
+    "county": "Galveston",
+    "note": "Start with Galveston County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Edinburg",
+    "county": "Hidalgo",
+    "note": "Start with Hidalgo County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Richardson",
+    "county": "Dallas",
+    "note": "Start with Dallas County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Pearland",
+    "county": "Brazoria",
+    "note": "Start with Brazoria County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Texas City",
+    "county": "Galveston",
+    "note": "Start with Galveston County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Conroe",
+    "county": "Montgomery",
+    "note": "Start with Montgomery County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "New Braunfels",
+    "county": "Comal",
+    "note": "Start with Comal County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Georgetown",
+    "county": "Williamson",
+    "note": "Start with Williamson County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Katy",
+    "county": "Harris",
+    "note": "This city crosses or may cross county lines; Harris is the starting county shown here. Verify the parcel's actual county and current notice."
+  },
+  {
+    "city": "Cedar Park",
+    "county": "Williamson",
+    "note": "Start with Williamson County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  },
+  {
+    "city": "Mission",
+    "county": "Hidalgo",
+    "note": "Start with Hidalgo County records and the current court/order notice; verify the parcel, participating taxing units, and sale status."
+  }
+]

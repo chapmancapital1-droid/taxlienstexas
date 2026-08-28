@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d1117">
+<meta name="description" content="Research Texas tax-foreclosure sales and resales. County directory, deal screening dashboard, redemption analysis, and statutory references for Chapter 34 properties.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="TX Tax Sales">
+<meta name="mobile-web-app-capable" content="yes">
+<title>Texas Land &amp; Tax Sale Finder</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='10' fill='%232f9e6f'/><text x='24' y='32' font-size='28' fill='%23fff' text-anchor='middle' font-family='sans-serif'>★</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%232f9e6f'/><text x='96' y='128' font-size='120' fill='%23fff' text-anchor='middle' font-family='sans-serif'>★</text></svg>">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/dashboard.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <div class="logo" aria-hidden="true">★</div>
+    <div>
+      <h1>Texas Land &amp; Tax Sale Finder</h1>
+      <div class="sub">254-county research · foreclosure and resale workflow · ranked property purchase decisions</div>
+    </div>
+    <div class="headstats" aria-label="Sale calendar summary">
+      <div class="chip"><b>254</b><span>counties</span></div>
+      <div class="chip"><b id="stat-date">—</b><span>statutory day</span></div>
+      <div class="chip"><b id="stat-days">—</b><span>countdown</span></div>
+      <div class="chip"><b>Tue / Wed</b><span>sale-day rule</span></div>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Application sections">
+  <button class="tab on" type="button" data-view="counties">County Directory</button>
+  <button class="tab" type="button" data-view="deals">Deal Dashboard <span class="tab-count" id="deal-tab-count">0</span></button>
+  <button class="tab" type="button" data-view="cities">Major Cities</button>
+  <button class="tab" type="button" data-view="sources">Sale List Sources</button>
+  <button class="tab" type="button" data-view="playbook">How It Works</button>
+</nav>
+
+<main>
+
+  <!-- ============ COUNTIES ============ -->
+  <section class="view on" id="view-counties" aria-label="County directory">
+    <div class="controls">
+      <input class="search" id="q" type="search" placeholder="Search county, seat, or assessor name…" aria-label="Search counties">
+      <select id="f-region" title="Region" aria-label="Filter by region"></select>
+      <select id="f-metro" title="Metro" aria-label="Filter by metro"></select>
+      <select id="f-sort" title="Sort" aria-label="Sort counties">
+        <option value="name">Sort: A–Z</option>
+        <option value="pop">Sort: population</option>
+        <option value="region">Sort: region</option>
+      </select>
+      <button class="btn gold" type="button" id="f-fav" title="Show favorites only" aria-pressed="false">★ Favorites</button>
+      <button class="btn primary" type="button" id="btn-check">✓ Verify county websites</button>
+      <button class="btn" type="button" id="btn-csv">↓ Export CSV</button>
+      <span class="count" id="shown"></span>
+    </div>
+    <div class="progress" id="prog" style="display:none" aria-hidden="true"><i></i></div>
+    <div class="scroll county-scroll">
+      <table>
+        <thead><tr>
+          <th aria-label="Favorite"></th><th>County</th><th>Region</th><th>Metro</th><th>Pop.</th>
+          <th>Tax Office Phone</th><th>Site</th><th>Link Status</th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <aside class="drawer" id="drawer" aria-label="County details" aria-hidden="true"><div id="drawer-body"></div></aside>
+  </section>
+
+  <!-- ============ DEAL DASHBOARD ============ -->
+  <section class="view" id="view-deals" aria-label="Property decision dashboard">
+    <div class="deal-shell">
+      <div class="deal-controls">
+        <input class="deal-search" id="deal-q" type="search" placeholder="Search address, account, legal description, county…" aria-label="Search property records">
+        <select id="deal-county" aria-label="Filter properties by county"><option value="">All counties</option></select>
+        <select id="deal-rec" aria-label="Filter by recommendation">
+          <option value="">All recommendations</option>
+          <option value="go">GO</option>
+          <option value="hold">HOLD</option>
+          <option value="pass">PASS</option>
+          <option value="needs-data">NEEDS DATA</option>
+        </select>
+        <select id="deal-risk" aria-label="Filter by risk level">
+          <option value="">All risk levels</option>
+          <option value="low">Low</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+          <option value="critical">Critical</option>
+          <option value="unverified">Unverified</option>
+        </select>
+        <select id="deal-call" aria-label="Filter by your decision">
+          <option value="">All decisions</option>
+          <option value="bid">Bid</option>
+          <option value="watch">Watch</option>
+          <option value="pass">Pass</option>
+          <option value="undecided">Undecided</option>
+        </select>
+        <select id="deal-sort" aria-label="Sort property records">
+          <option value="score">Sort: score</option>
+          <option value="profit">Sort: projected profit</option>
+          <option value="roi">Sort: projected ROI</option>
+          <option value="max-bid">Sort: max bid</option>
+          <option value="sale-date">Sort: sale date</option>
+          <option value="diligence">Sort: diligence</option>
+        </select>
+        <button class="btn primary" type="button" id="deal-add">＋ Add property</button>
+        <button class="btn" type="button" id="deal-import">↑ Import CSV</button>
+        <input type="file" id="deal-file" accept=".csv,text/csv" hidden>
+        <button class="btn" type="button" id="deal-export">↓ Export view</button>
+        <button class="btn" type="button" id="deal-template">CSV template</button>
+        <button class="btn icon-btn" type="button" id="deal-reset-filters" title="Reset filters" aria-label="Reset dashboard filters">↻</button>
+        <span class="count" id="deal-shown">0 properties</span>
+      </div>
+
+      <div class="sample-banner" id="sample-banner" hidden>
+        <div><b>Demo records are loaded for orientation.</b> Replace them with your own research, or import the CSV template.</div>
+        <button type="button" id="remove-samples">Remove demo records</button>
+      </div>
+
+      <div class="deal-content">
+        <div class="kpi-grid" aria-label="Current filtered portfolio summary">
+          <article class="kpi-card">
+            <span>Properties shown</span><b id="kpi-properties">0</b><small>Current filtered view</small>
+          </article>
+          <article class="kpi-card good">
+            <span>GO candidates</span><b id="kpi-go">0</b><small>Meets buy box + diligence gate</small>
+          </article>
+          <article class="kpi-card">
+            <span>GO capital</span><b id="kpi-capital">$0</b><small>All-in at planned / minimum bids</small>
+          </article>
+          <article class="kpi-card">
+            <span>GO projected spread</span><b id="kpi-spread">$0</b><small>Exit value less all-in cost</small>
+          </article>
+          <article class="kpi-card warn-kpi">
+            <span>Open diligence</span><b id="kpi-open">0</b><small>Below 75% or missing core data</small>
+          </article>
+        </div>
+
+        <section class="buybox" aria-labelledby="buybox-title">
+          <div class="buybox-copy">
+            <span class="eyebrow">Transparent buy box</span>
+            <h2 id="buybox-title">Fast screen: price discipline first, diligence gate second</h2>
+            <p>Calculated max bid is the lowest bid allowed by all three targets after entered costs. CAD value is reference data, not a substitute for a verified exit value.</p>
+          </div>
+          <div class="buybox-fields">
+            <label>Max all-in / exit
+              <span class="input-affix"><input id="bb-allin" type="number" min="1" max="100" step="1" inputmode="decimal"><i>%</i></span>
+            </label>
+            <label>Minimum profit
+              <span class="input-affix prefix"><i>$</i><input id="bb-profit" type="number" min="0" step="500" inputmode="decimal"></span>
+            </label>
+            <label>Minimum ROI
+              <span class="input-affix"><input id="bb-roi" type="number" min="0" max="1000" step="1" inputmode="decimal"><i>%</i></span>
+            </label>
+            <label>Repair contingency
+              <span class="input-affix"><input id="bb-contingency" type="number" min="0" max="100" step="1" inputmode="decimal"><i>%</i></span>
+            </label>
+            <button class="btn" type="button" id="bb-reset">Reset</button>
+          </div>
+        </section>
+
+        <div class="deal-table-wrap">
+          <table class="deal-table">
+            <thead><tr>
+              <th>Rank</th><th>Property</th><th>Sale</th><th>Bid used</th><th>Max bid</th>
+              <th>Exit value</th><th>Profit / ROI</th><th>Risk flags</th><th>Diligence</th><th>My call</th>
+            </tr></thead>
+            <tbody id="deal-tbody"></tbody>
+          </table>
+          <div class="deal-empty" id="deal-empty" hidden>
+            <h3>No properties match this view</h3>
+            <p>Reset the filters, import a CSV, or add a property to start screening.</p>
+          </div>
+        </div>
+
+        <div class="screening-note"><b>Screening aid, not a title opinion or appraisal.</b> Verify sale status, property identity, access, flood mapping, utilities, deed restrictions, taxes and assessments, surviving interests, possession, redemption classification, and title insurability with the responsible offices and qualified professionals before bidding.</div>
+      </div>
+    </div>
+
+    <div class="deal-backdrop" id="deal-backdrop" hidden></div>
+    <aside class="deal-drawer" id="deal-drawer" aria-label="Property editor" aria-hidden="true">
+      <div id="deal-drawer-body"></div>
+    </aside>
+    <div class="toast" id="deal-toast" role="status" aria-live="polite"></div>
+  </section>
+
+  <!-- ============ CITIES ============ -->
+  <section class="view" id="view-cities">
+    <div class="scroll">
+      <div class="page">
+        <h2>Major Texas cities → starting county for sale research</h2>
+        <div class="lead">A property-tax foreclosure can include claims from participating taxing units, but the actual parties, posting office, precinct, sale format, and county depend on the specific case and notice. Use this city map as a starting point, then verify the parcel's county and current sale notice.</div>
+        <table>
+          <thead><tr><th>City</th><th>County</th><th>Research note</th><th></th></tr></thead>
+          <tbody id="city-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOURCES ============ -->
+  <section class="view" id="view-sources">
+    <div class="scroll">
+      <div class="page">
+        <h2>Where current sale and resale information may appear</h2>
+        <div class="lead">There is no single statewide inventory. Start with the court-ordered sale notice and the responsible county, precinct, sheriff/constable, taxing unit, or delinquent-tax counsel. Posting timing, format, cancellations, registration, and payment rules vary, so confirm every item against the current notice.</div>
+        <div class="grid">
+          <div class="src">
+            <div class="tag">Listing portal</div>
+            <h3>Linebarger Goggan Blair &amp; Sampson</h3>
+            <p>Hosts tax-sale research and property-list material for some represented taxing units. Coverage and inventory change; the current legal notice controls.</p>
+            <a class="abtn grn" href="https://taxsales.lgbs.com" target="_blank" rel="noopener">taxsales.lgbs.com ↗</a>
+          </div>
+          <div class="src">
+            <div class="tag">Listing portal</div>
+            <h3>McCreary, Veselka, Bragg &amp; Allen (MVBA)</h3>
+            <p>Publishes sale or resale information for some represented clients. Use its materials to locate the responsible contact, then verify the current order and notice.</p>
+            <a class="abtn grn" href="https://www.mvbalaw.com" target="_blank" rel="noopener">mvbalaw.com ↗</a>
+          </div>
+          <div class="src">
+            <div class="tag">Listing portal</div>
+            <h3>Perdue, Brandon, Fielder, Collins &amp; Mott</h3>
+            <p>Provides public-sale resources for some represented taxing units. Confirm whether a listed property is active, withdrawn, rescheduled, or subject to special terms.</p>
+            <a class="abtn grn" href="https://www.pbfcm.com" target="_blank" rel="noopener">pbfcm.com ↗</a>
+          </div>
+          <div class="src">
+            <div class="tag">Sale office</div>
+            <h3>Constable / sheriff / online auction host</h3>
+            <p>The order and current notice identify who conducts the sale, the designated place or online method, the bidding window, and payment instructions. Do not infer those terms from another county or a prior month.</p>
+          </div>
+          <div class="src">
+            <div class="tag">Property records</div>
+            <h3>County Clerk &amp; Appraisal District</h3>
+            <p>Use clerk records for the foreclosure cause, recorded instruments, and deed research. Use the CAD for parcel identification and appraisal data—then independently verify condition, market value, exemptions, and legal attributes.</p>
+          </div>
+          <div class="src">
+            <div class="tag">State references</div>
+            <h3>Official Texas resources</h3>
+            <p>The Comptroller publishes property-tax information; the Secretary of State maintains assessor-collector contact material; Tax Code Chapter 34 governs tax-foreclosure sales and redemption.</p>
+            <a class="abtn" href="https://comptroller.texas.gov/taxes/property-tax/" target="_blank" rel="noopener">Comptroller ↗</a>
+            <a class="abtn" href="https://statutes.capitol.texas.gov/Docs/TX/htm/TX.34.htm" target="_blank" rel="noopener">Tax Code Ch. 34 ↗</a>
+          </div>
+        </div>
+        <div class="tip"><b>Working routine:</b> pull the current notice and court/property identifiers → confirm active sale status and bidder rules → reconcile the parcel at the CAD and clerk → verify taxes, title, access, flood, utilities, restrictions, occupancy, and redemption class → enter conservative exit and cost assumptions in the Deal Dashboard → set a hard maximum bid before sale day.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLAYBOOK ============ -->
+  <section class="view" id="view-playbook">
+    <div class="scroll">
+      <div class="page doc">
+        <h2>Texas tax-foreclosure screening playbook</h2>
+        <div class="lead">A practical research sequence for Chapter 34 sales and resales. County procedures and individual court orders control, so treat every summary below as a prompt to verify—not as the sale terms.</div>
+
+        <div class="warn"><b>Scope matters.</b> This app tracks court-ordered sales and resales of real property under Texas Tax Code Chapter 34. It is not a marketplace for property-tax loan interests. Texas separately regulates licensed property-tax lenders and certain transfers of tax liens under Tax Code §32.06; those transactions are outside this workflow.</div>
+
+        <h3>1 · Locate the controlling notice</h3>
+        <ul>
+          <li>Chapter 34 sales are tied to a judgment and order of sale. Confirm the cause number, legal description, account number, minimum bid, sale status, officer or online host, designated place/method, and exact payment deadline.</li>
+          <li>The ordinary statutory sale window is the first Tuesday of the month between 10 a.m. and 4 p.m. If that first Tuesday is January 1 or July 4, the statute moves the sale to the first Wednesday. A sale may also be conducted online when the statutory requirements are met.</li>
+          <li>A county may adopt bidder-registration requirements under §34.011. Do not assume registration is required—or that another county's form works—until you verify the local rule and deadline.</li>
+        </ul>
+
+        <h3>2 · Distinguish auction property from resale inventory</h3>
+        <ul>
+          <li>If no sufficient bid is received, property may be bid off to a taxing unit. Later disposition can occur through statutory public or private resale procedures, depending on the circumstances and required consents.</li>
+          <li>Ask the named taxing unit or counsel who accepts offers, what minimum is authorized, which entities must consent, what deed will be delivered, and whether the property remains subject to redemption.</li>
+          <li>Never describe a resale as a normal warranty-deed closing unless the actual documents support that conclusion. Current statutory notices emphasize “as is, where is” treatment and the absence of warranties.</li>
+        </ul>
+
+        <h3>3 · Classify redemption before pricing the deal</h3>
+        <table class="rtable">
+          <tr><th>Property classification at foreclosure</th><th>General Chapter 34 period</th><th>General premium framework</th></tr>
+          <tr><td>Real property other than qualifying homestead, agricultural-use property, or mineral interest</td><td><b>180 days</b> after the purchaser's or taxing unit's deed is filed for record</td><td>Purchase amount and qualifying costs, plus the statutory 25% premium</td></tr>
+          <tr><td>Qualifying residence homestead, agricultural-use property, or mineral interest</td><td><b>2 years</b> after the deed is filed for record</td><td>25% in year one; 50% in year two, applied under the statute</td></tr>
+        </table>
+        <p class="mut">Federal interests require separate analysis. In certain judicial or nonjudicial foreclosure settings, the United States may have a 120-day redemption period—or a longer state-law period—and defective notice or joinder can affect whether a federal lien is discharged. Escalate any federal-lien finding to qualified counsel.</p>
+
+        <h3>4 · Complete parcel, title, and physical diligence</h3>
+        <ul>
+          <li><b>Identity:</b> reconcile the notice, judgment, CAD record, map, acreage, situs, legal description, and account number. Similar names and tiny remnant tracts are common screening traps.</li>
+          <li><b>Value:</b> do not use CAD value as market value. Build an exit estimate from relevant sales, realistic market time, access, utilities, flood/buildability, condition, and title marketability.</li>
+          <li><b>Money:</b> verify minimum bid, post-judgment/current taxes, assessments, municipal charges, POA claims, closing/title work, insurance, possession, cleanup, repairs, holding time, and resale costs.</li>
+          <li><b>Rights and restrictions:</b> review the court file and land records for parties, easements, access, restrictions, mineral issues, federal interests, and other matters that may survive or impair marketable title.</li>
+          <li><b>Site feasibility:</b> confirm legal and physical access, flood zone/floodway, water and wastewater options, subdivision/building rules, environmental concerns, occupancy, and safe lawful inspection limits.</li>
+        </ul>
+
+        <h3>5 · Use the dashboard as a gate, not a verdict</h3>
+        <ul>
+          <li>Enter a conservative verified exit value and every expected non-bid cost. The dashboard calculates max bid under three simultaneous caps: maximum all-in percentage, minimum profit, and minimum ROI.</li>
+          <li>A GO label also requires at least 75% of the core diligence fields and no high/critical risk flag. A HOLD means the economics may be interesting but a risk or diligence gate is open. PASS means entered economics miss the buy box after the diligence gate is met.</li>
+          <li>The score is a transparent sorting aid. It is not an appraisal, title opinion, legal conclusion, probability of redemption, or substitute for professional review.</li>
+        </ul>
+
+        <h3>6 · Call script</h3>
+        <div class="tip">
+          “I'm researching the property identified by account number and cause number on the current tax-sale material. Could you confirm: (1) whether it is still active and the controlling notice/order; (2) the sale method, registration, and payment requirements; (3) the minimum bid and any later taxes or charges I should verify; and (4) the correct contact for court-file, resale, and redemption questions?”
+        </div>
+
+        <h3>7 · Glossary</h3>
+        <ul>
+          <li><b>Minimum bid</b> — the statutory or court-order opening amount for the sale; verify the current figure.</li>
+          <li><b>Bid off / struck off</b> — property acquired for a taxing unit after no sufficient bid, potentially followed by a statutory resale.</li>
+          <li><b>Purchaser's deed / taxing unit's deed</b> — the recorded deed that starts the Chapter 34 redemption period described above.</li>
+          <li><b>Redemption</b> — the former owner's or other eligible party's statutory right to recover property by paying the required amounts within the applicable period.</li>
+          <li><b>Title curative work</b> — legal and record work needed to establish insurable/marketable title; the correct path depends on the file and title requirements.</li>
+        </ul>
+
+        <div class="warn"><b>Disclaimer:</b> this local application is a research and screening aid. County contacts are a snapshot and may be stale; sale listings can be amended or canceled; statutes, cases, and local procedures can change. Verify current facts with official records and obtain legal, title, tax, valuation, engineering, environmental, and other professional advice appropriate to the property before bidding.</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="footer">
+  County contacts are a research snapshot and may be stale; verify against official county and Texas Comptroller directories. Sale and redemption summaries are general Chapter 34 screening notes, not legal advice. The app runs locally—favorites, notes, buy-box settings, and property records stay in this browser unless you export them.
+</div>
+
+</div>
+<script src="/app.js"></script>
+<script src="/dashboard.js"></script>
+</body>
+</html>
